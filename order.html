@@ -53,15 +53,59 @@
 
         <div class="row marketing">
             <div class="col-md-8">
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est incidunt dolores odio quos rem, reiciendis dignissimos blanditiis aperiam aliquid, nostrum veritatis cum nemo minus doloribus dicta commodi officia saepe illo?  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem facilis minus accusantium, dolorem optio provident placeat rerum praesentium, unde omnis repellendus numquam, aliquam at commodi repellat quo ipsa! Itaque, molestiae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quia aut repellat mollitia fugit atque neque, eos ipsa dolor veritatis voluptas commodi non impedit, expedita possimus, nihil reiciendis voluptatum porro.</p>
-                </div>
+                <h4>Order from Sueshe</h4>
+                <p><span class="label label-default">New</span> Sign-up or login to your account to earn rewards. <a href="account.html">Get started!</a></p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="order">Order</label>
+                        <textarea class="form-control" rows="3" id="order" placeholder="As there are many combinations available, we ask for you to describe your order. View our menu or see the quick listing on this page for ideas. Please be as specific as possible."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="payment">Method of Payment</label>
+                        <select class="form-control" id="payment">
+                            <option>Credit card</option>
+                            <option>Cash</option>
+                            <option>Gift Card</option>
+                        </select>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> I agree to pay for my order
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Order</button>
+                </form>
+            </div>
             <div class="col-md-4">
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi pariatur voluptates exercitationem, nulla laboriosam quia officia corporis modi aut, magnam natus, illum perspiciatis possimus saepe ipsa alias sapiente dolorem placeat!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro mollitia adipisci deserunt consectetur est laboriosam! Harum explicabo animi nihil, excepturi consequatur obcaecati voluptatem voluptate minima voluptatibus omnis esse, cupiditate quo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis suscipit incidunt tempora modi repellendus eum officiis odio autem dolorem eveniet ab, assumenda sequi nisi similique nostrum laudantium, nulla est possimus!</p>
+                <h4>Order Progress</h4>
+                <p>You've just started your order!</p>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">
+                        15%
+                    </div>
                 </div>
+                <h4>Sushee Order Load</h4>
+                <p>Good news! We are ahead of the game. Place an order for quick turnaround.</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                        <span class="sr-only">20% Complete</span>
+                    </div>
+                </div>
+                <h4>Reward Points</h4>
+                <p>By ordering, you receive the following rewards:</p>
+                <p>
+                    <button class="btn btn-primary" type="button">Sueshe Rewards <span class="badge">+1</span></button>
+                </p>
+            </div>
         </div>
-
         <footer class="footer">
             <p>&copy; 2016 Sueshe.</p>
         </footer>
@@ -72,6 +116,9 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!--    Bootstrap js-->
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
